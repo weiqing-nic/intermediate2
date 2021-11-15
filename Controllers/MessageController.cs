@@ -32,10 +32,7 @@ namespace producerd.Controllers
                     i2 += 1;
                     var factory = new ConnectionFactory()
                     {
-                        //HostName = "host.docker.internal"
-                        //Port = "31859"
-                        //                HostName = Environment.GetEnvironmentVariable("RABBITMQ_HOST"),
-                        //              Port = Convert.ToInt32(Environment.GetEnvironmentVariable("RABBITMQ_PORT"))
+                   
                         HostName = "localhost",
                         Port = 31672
                     };
